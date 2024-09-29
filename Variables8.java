@@ -5,11 +5,13 @@ public class Variables8 {
         
     // 8. Calcular área de un círculo
 
-    Scanner scanner = new Scanner(System.in);
+    Scanner Scanner = new Scanner(System.in);
+    Scanner.close();
 
     System.out.println("Ingrese el radio: ");
-    double radio = scanner.nextDouble();
+    double radio = Scanner.nextDouble();
     double area = Math.PI * Math.pow(radio, 2);
     System.out.println("El área del círculo es: " + area);
-    }
+    } 
+    
 }
